@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+    <title>Sound File Analysis</title>
+    <!-- Include Chart.js library -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+    <!-- Display the loudness graph -->
+    <h2>Spectrogram</hcmd2>
+    <img src="{{spectrogram}}" alt="spectrogram">
+
+    <!-- Display the spectrogram graph -->
+    <h2>Spectrogram Graph</h2>
+    <img src="{{ spectrogram_graph_path }}" alt="Spectrogram Graph">
+
+    <!-- Display Short Term Fourier Transform-->
+    <h2>Short Term Fourier Transform</h2>
+    <img src = "{{stft}}" alt = "stft">
+
+    <!--Display Mel Spectrogram-->
+    <h2>Mel Spectrogram</h2>
+    <img src = "{{melspec}}" alt = 'melspec'>
+
+    <h2> Chroma</h2>
+    <img src = "{{crhoma}}" alt = 'chroma'>
+</body>
+</html>
